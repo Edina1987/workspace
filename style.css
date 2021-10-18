@@ -1,5 +1,5 @@
 h1 {font-family: "Lucida Handwriting", "Courier New", monospace;}
-h2 {font-family: "Sweet Whisper", "Courier New", monospace;}
+h2 {font-family: 'Sacramento';}
 div.a {
     text-align: center;
   }
@@ -12,4 +12,12 @@ h3 {font-family: 'Sacramento';}
   #h3 {background-color:hsla(0, 100%, 30%, 0.3);}
   div.b {
     font-size: 25px;
+  }
+  div.c {
+    font-size: 45px;
+  }
+
+  
+  h2 {
+      font-size: 30px;
   }
