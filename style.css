@@ -1,2 +1,11 @@
 h1 {font-family: "Lucida Handwriting", "Courier New", monospace;}
 h2 {font-family: "Sweet Whisper", "Courier New", monospace;}
+div.a {
+    text-align: center;
+  }
+  p {font-family: 'Sacramento';}
+
+  .lead {
+      font-family: "Sacramento";
+      color: green;
+  }
