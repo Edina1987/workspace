@@ -3,9 +3,13 @@ h2 {font-family: "Sweet Whisper", "Courier New", monospace;}
 div.a {
     text-align: center;
   }
-  p {font-family: 'Sacramento';}
+h3 {font-family: 'Sacramento';}
 
   .lead {
       font-family: "Sacramento";
-      color: green;
+      color: white;
+  }
+  #h3 {background-color:hsla(0, 100%, 30%, 0.3);}
+  div.b {
+    font-size: 25px;
   }
