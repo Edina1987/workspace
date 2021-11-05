@@ -6,14 +6,26 @@ body {
 
 header { 
     background: rgb(114, 167, 10);
+    padding: 20px 40px 10px 50px;
 } 
 
 section  { 
-    background: rgb(204, 230, 187);      
+    background: rgb(204, 230, 187);
+    padding: 20px;    
 } 
+
+div { 
+    background:  rgba(61, 59, 59, 0.979);
+    display: inline-block;
+    width: 100px;
+    color: whitesmoke;
+
+}
+
 
 footer  { 
     background:  rgb(114, 167, 10);
+    padding: 10px 20px;
 } 
 
 
