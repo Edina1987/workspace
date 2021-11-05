@@ -1,13 +1,28 @@
 body { 
     background: rgba(61, 59, 59, 0.979);
+    margin: 0;
+    padding: 0;
   } 
 
+header { 
+    background: rgb(114, 167, 10);
+} 
+
+section  { 
+    background: rgb(204, 230, 187);      
+} 
+
+footer  { 
+    background:  rgb(114, 167, 10);
+} 
 
 
 
 
-
-h1 {font-family: "Lucida Handwriting", "Courier New", monospace;}
+h1 {
+    font-family: "Lucida Handwriting", "Courier New", monospace;
+    color: rgb(114, 167, 10);
+  }
 h2 {font-family: 'Sacramento';}
 div.a {
     text-align: center;
