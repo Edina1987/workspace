@@ -11,17 +11,29 @@ header {
 
 section  { 
     background: rgb(204, 230, 187);
-    padding: 20px;    
+    padding: 20px;
+    display: flex; 
+    flex-direction: row;
 } 
 
 div { 
     background:  rgba(61, 59, 59, 0.979);
-    display: inline-block;
+    margin: auto;
     width: 100px;
     color: whitesmoke;
 
 }
 
+ul { 
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li { 
+    display: inline-block;
+    margin: 20px;
+} 
 
 footer  { 
     background:  rgb(114, 167, 10);
