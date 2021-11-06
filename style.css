@@ -6,7 +6,12 @@ body {
 
 header { 
     background: rgb(204, 230, 187);
-    padding: 20px 40px 10px 50px;
+    background-image: url("images/header\ pic.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
 } 
 
 header .logo a { 
@@ -16,19 +21,21 @@ header .logo a {
 }
 
 
-section  { 
+.features  { 
     background: rgb(204, 230, 187);
     padding: 20px;
     display: flex; 
     flex-direction: row;
 } 
 
-div { 
-    background:  rgba(61, 59, 59, 0.979);
+.features figure { 
     margin: auto;
-    width: 100px;
-    color: whitesmoke;
+    width: 200px;
+}
 
+.features figure img {
+  border-radius: 100px;
+  width: 200px;
 }
 
 ul { 
