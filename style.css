@@ -15,11 +15,43 @@ header {
 } 
 
 header .logo a { 
+  display: none;
+}
+
+header .logo a { 
   background-image: url("images/Allesveganlogo.png");
-  height: 180px;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 80px;
+  position: relative;
+  text-indent: -9999999px;
+  top: -30px;
   width: 30px;
 }
 
+nav ul { 
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li { 
+  display: inline-block;
+  margin: 20px;
+} 
+
+/* RESPONSIVE RULES */
+@media screen and (max-width: 415px) {
+  header .mobile {
+    display: inline-block;
+  }
+  header .desktop {
+    display: none;
+  }
+}
+
+/* FEATURES */
 
 .features  { 
     background: rgb(204, 230, 187);
@@ -30,28 +62,23 @@ header .logo a {
 
 .features figure { 
     margin: auto;
+    text-align: center;
     width: 200px;
 }
 
 .features figure img {
-  border-radius: 100px;
+  border: 1px solid white;
+  border-radius: 70px;
+  box-shadow: rgba(61, 59, 59, 0.979) 0 0 10px;
   width: 200px;
-}
-
-ul { 
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-li { 
-    display: inline-block;
-    margin: 20px;
 } 
 
 footer  { 
-    background:  rgb(114, 167, 10);
-    padding: 10px 20px;
+    background:   rgb(204, 230, 187);
+    color: rgba(61, 59, 59, 0.979);
+    font-size: 12px;
+    padding: 20px 20px;
+    text-align: center;
 } 
 
 
