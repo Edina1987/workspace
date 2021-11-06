@@ -5,9 +5,16 @@ body {
   } 
 
 header { 
-    background: rgb(114, 167, 10);
+    background: rgb(204, 230, 187);
     padding: 20px 40px 10px 50px;
 } 
+
+header .logo a { 
+  background-image: url("images/Allesveganlogo.png");
+  height: 180px;
+  width: 30px;
+}
+
 
 section  { 
     background: rgb(204, 230, 187);
@@ -45,7 +52,7 @@ footer  {
 
 h1 {
     font-family: "Lucida Handwriting", "Courier New", monospace;
-    color: rgb(114, 167, 10);
+    color: rgb(204, 230, 187);
   }
 h2 {font-family: 'Sacramento';}
 div.a {
