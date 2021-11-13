@@ -33,10 +33,11 @@ body, html {
 h2 {
   border: 20px #656d78;
   padding: 50px;
-  height: 200px;
-  font-family: 'IBM Plex Serif', serif;
+  height: 450px;
+  font-family: 'Work Sans', sans-serif;
   color: #ffce54;
   background-color: #656d78;
+  text-align: left;
 }
 
 span {
@@ -46,25 +47,26 @@ span {
 
 }
 
-@media screen and (min-width: 601px) {
+
+@media screen and (min-width: 376px) {
 h2 {
   font-size: 22px;
 }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 375px) {
 h2 {
-  font-size: 18px;
+  font-size: 14px;
 }
 }
-@media screen and (min-height: 301px) {
+@media screen and (min-height: 376px) {
 h2 {
   font-size: 22px;
 }
 }   
-@media screen and (max-height: 300px) {
+@media screen and (max-height: 375px) {
 h2 {
-  font-size: 18px;
+  font-size: 14px;
 }
 }
 
