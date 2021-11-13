@@ -47,6 +47,30 @@ span {
 
 }
 
+.button {
+  border: #ffce54;
+  color: #656d78;
+  padding: 16px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button {
+  background-color: #656d78;
+  color: #ffce54;
+  border: 2px solid #ffce54;
+}
+
+.button:hover {
+  background-color: #ffce54;
+  color: #656d78;
+  
+}
 
 @media screen and (min-width: 376px) {
 h2 {
