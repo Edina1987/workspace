@@ -22,13 +22,32 @@ body, html {
   }
 
 h1 {
+    height: 250px;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     color: salmon;
-    font-size: 62px;
-    background-image: url('img/yellow.jpg');
-
+    background: linear-gradient(to left, #ffffff 0%, #ffce54 100%);  
 }
 
+@media screen and (min-width: 601px) {
+  h1 {
+    font-size: 22px;
+  }
+}
 
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-height: 301px) {
+  h1 {
+    font-size: 22px;
+  }
+}   
+@media screen and (max-height: 300px) {
+  h1 {
+    font-size: 18px;
+  }
+}
   /* it finally fucking works, img imported CHECK parallax working CHECK - always add body, html with 100% */ /* 
