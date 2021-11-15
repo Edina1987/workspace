@@ -81,12 +81,6 @@ h2 {
   text-align: left;
 }
 
-img:hover {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  background-image: url('img/yellowyellow.jpg');
-}
-
 @media screen and (min-width: 376px) {
   h2 {
     font-size: 18px;
